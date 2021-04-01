@@ -1,0 +1,35 @@
+
+.letter {
+    word-wrap: break-word;
+    color: #8d948d;
+    font-family: Ubuntu Mono,Lucida Console,monospace;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.2;
+    margin: 0 auto;
+    max-width: 100rem;
+    padding: 0;
+    text-align: left;
+    word-spacing: normal;
+}
+
+.letter-correct {
+    color: #1eff00;
+}
+
+.letter-notcorrect {
+    color: red;
+}
+
+.letter-blink {
+    animation: blinker 0.5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    100% {
+      background-color: #1eff00;
+      color: #1eff00;
+    }
+  }
